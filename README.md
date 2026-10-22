@@ -14,7 +14,7 @@ It's plain HTML, CSS, and JavaScript, with no build step and no dependencies.
 
 ## Project structure
 
-```
+```text
 index.html   Markup for the front and back of the card, the flip button, and the stock picker
 style.css    Layout, card stock colors, the 3D flip, the sheen, and reduced-motion overrides
 main.js      Flip toggle, stock switching, pointer tilt, and the logo fallback
@@ -23,17 +23,13 @@ images/      (optional) logo.png for the firm logo
 
 ## Running locally
 
-Open `index.html` in a browser. To serve it locally instead:
+This project uses the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code.
 
-```sh
-# Python
-python -m http.server 8000
+1. Install **Live Server** (by Ritwick Dey) from the Extensions view.
+2. Open the project folder in VS Code.
+3. Right-click `index.html` and choose **Open with Live Server**, or click **Go Live** in the status bar.
 
-# or Node
-npx serve .
-```
-
-Then go to `http://localhost:8000`.
+The card opens at `http://127.0.0.1:5500` and the page reloads whenever you save a file.
 
 ## Customizing
 
