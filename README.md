@@ -1,6 +1,6 @@
 # Business Card
 
-A digital business card for Brian Rolbiecki Jr., styled after the business card scene in *American Psycho*. You can flip the card over, swap between four card stocks, and watch it tilt and catch the light as the pointer moves.
+A digital business card for Brian Rolbiecki Jr, styled after the business card scene in *American Psycho*. You can flip the card over, swap between four card stocks, and watch it tilt and catch the light as the pointer moves.
 
 It's plain HTML, CSS, and JavaScript, with no build step and no dependencies.
 
