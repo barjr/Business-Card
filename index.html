@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian Rolbiecki Jr.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Cormorant+SC:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-stock="bone">
+    <main class="stage">
+      <p class="whisper">Look at that subtle off-white coloring.</p>
+
+      <div class="card-wrap" id="cardWrap">
+        <div class="card" id="card">
+          <!-- FRONT -->
+          <section class="face front" aria-label="Business card, front">
+            <span class="phone">414&ensp;233&ensp;4455</span>
+
+            <div class="firm">
+              <img class="logo" src="images/logo.png" alt="Logo" />
+              <span class="monogram" aria-hidden="true">BR</span>
+              <span class="dept">Mergers and Acquisitions</span>
+            </div>
+
+            <div class="identity">
+              <h1 class="name">Brian Rolbiecki Jr.</h1>
+              <p class="title">Developer</p>
+            </div>
+
+            <address class="address">
+              Milwaukee, Wisconsin&ensp;·&ensp;By appointment
+            </address>
+
+            <span class="watermark" aria-hidden="true">BR</span>
+          </section>
+
+          <!-- BACK -->
+          <section class="face back" aria-label="Business card, back">
+            <img class="logo logo-back" src="images/logo.png" alt="" />
+            <span class="monogram monogram-back" aria-hidden="true">BR</span>
+            <ul class="links">
+              <li>
+                <a href="mailto:barjrwork@gmail.com">barjrwork@gmail.com</a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/barjr"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/barjr/"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+      <button class="turn" id="turn" type="button" aria-pressed="false">
+        Turn it over
+      </button>
+
+      <fieldset class="stock">
+        <legend>Card stock</legend>
+        <label
+          ><input type="radio" name="stock" value="bone" checked /><span
+            >Bone</span
+          ></label
+        >
+        <label
+          ><input type="radio" name="stock" value="eggshell" /><span
+            >Eggshell</span
+          ></label
+        >
+        <label
+          ><input type="radio" name="stock" value="nimbus" /><span
+            >Pale Nimbus</span
+          ></label
+        >
+        <label
+          ><input type="radio" name="stock" value="watermark" /><span
+            >Watermark</span
+          ></label
+        >
+      </fieldset>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
