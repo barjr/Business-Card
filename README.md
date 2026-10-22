@@ -4,6 +4,9 @@ A digital business card for Brian Rolbiecki Jr., styled after the business card 
 
 It's plain HTML, CSS, and JavaScript, with no build step and no dependencies.
 
+<img width="2560" height="1281" alt="image" src="https://github.com/user-attachments/assets/ad4026cf-ad10-4273-aa0e-cc629aab616e" />
+
+
 ## Features
 
 - **Flip:** click the card or the "Turn it over" button to see the back, which links to email, GitHub, and LinkedIn. Clicking a link doesn't flip the card.
